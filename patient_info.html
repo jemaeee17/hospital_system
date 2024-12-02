@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Dashboard</title>
+    <style>
+       
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-icon">
+            <a href="staff.html" title="Staff">
+                <i class="fa-solid fa-user-doctor"></i>
+            </a>   
+        </div>
+    
+        <div class="sidebar-icon">
+            <a href="" title="Patients">
+                <i class="fa-solid fa-hospital-user"></i>
+            </a>
+        </div>
+    
+        <div class="sidebar-icon">
+            <a href="beds.html" title="Beds">
+                <i class="fa-solid fa-bed"></i>
+            </a>
+        </div>
+    
+        <div class="sidebar-icon">
+            <a href="billing.html" title="Billing">
+                <i class="fa-solid fa-money-bills"></i>   
+            </a>
+        </div>
+    
+        <div class="logout">
+            <a href="logout.html" title="Logout">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </a>
+        </div>
+    </div>
+    
+
+    <!-- Dashboard Content -->
+    <div class="dashboard-container">
+        <!-- Header -->
+        <div class="header">
+            <h1><b>Patients Information</b></h1>     
+    </div>
+    <div class="table-container">
+        <table class="patient-info">
+            <thead>
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Status</th>
+                <th>Assigned Doctor</th>
+                <th>Room No.</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Patient 1 -->
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>Admitted</td>
+                <td>Dr. Emily Carter</td>
+                <td>101</td>
+              </tr>
+              <!-- Patient 2 -->
+              <tr>
+                <td>Jane</td>
+                <td>Smith</td>
+                <td>Discharged</td>
+                <td>Dr. Liam Wilson</td>
+                <td>102</td>
+              </tr>
+              <!-- Patient 3 -->
+              <tr>
+                <td>Michael</td>
+                <td>Johnson</td>
+                <td>Under Observation</td>
+                <td>Dr. Ava Taylor</td>
+                <td>103</td>
+              </tr>
+              <!-- Patient 4 -->
+              <tr>
+                <td>Sarah</td>
+                <td>Williams</td>
+                <td>Admitted</td>
+                <td>Dr. Ella Wright</td>
+                <td>104</td>
+              </tr>
+
+              
+            </tbody>
+        </table>
+    </div>
+    
+    </div>
